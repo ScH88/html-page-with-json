@@ -1,0 +1,75 @@
+{
+  "holidays": [{
+            "id":1,
+            "hotelName": "Costa Adeje Gran Hotel",
+            "location": {
+                "city": "Costa Adeje",
+                "country": "Tenerife"
+            },
+            "starRating":5,
+            "price": 1136.50,
+            "image": "assets/image_01.png",
+            "startDate": {
+                "day": 3,
+                "month": "July",
+                "year":2014
+            },
+            "days": 7,
+            "departFrom": "East Midlands",
+            "passengers": {
+                "adults": 2,
+                "children": 2,
+                "infants": 1
+            },
+            "details" : "Aliquam id dolor cursus, consectetur leo in, bibendum arcu. Aliquam erat volutpat. Pellentesque volutpat metus eu quan tincidunt, eu pellentesque velit vestibulum. Ut congue sem diam, a vehicula justo interdum eget. Quisque a nibh eu ipsum fascilis volutpat nec nec diam. Suspendisse potenti." 
+            },
+            {
+            "id":2,
+            "hotelName": "Aguamarina Golf Hotel and Apartments",
+            "location": {
+                "city": "Costa Adeje",
+                "country": "Tenerife"
+            },
+            "starRating":4,
+            "price": 499.99,
+            "image": "assets/image_02.png",
+            "startDate": {
+                "day": 3,
+                "month": "July",
+                "year":2014
+            },
+            "days": 7,
+            "departFrom": "Manchester",
+            "passengers": {
+                "adults": 2,
+                "children": 2,
+                "infants": 0
+            },
+            "details" : "Aliquam id dolor cursus, consectetur leo in, bibendum arcu. Aliquam erat volutpat. Pellentesque volutpat metus eu quan tincidunt, eu pellentesque velit vestibulum. Ut congue sem diam, a vehicula justo interdum eget. Quisque a nibh eu ipsum fascilis volutpat nec nec diam. Suspendisse potenti." 
+            }, 
+        {    
+            "id":3,
+            "hotelName": "Laguna Park II",
+            "location": {
+                "city": "Costa Adeje",
+                "country": "Tenerife"
+            },
+            "starRating":3,
+            "price": 696.80,
+            "image": "assets/image_03.png",
+            "startDate": {
+                "day": 27,
+                "month": "May",
+                "year":2014
+            },
+            "days": 7,
+            "departFrom": "Liverpool",
+            "passengers": {
+                "adults": 2,
+                "children": 1,
+                "infants": 0
+            },
+            "details" : "Aliquam id dolor cursus, consectetur leo in, bibendum arcu. Aliquam erat volutpat. Pellentesque volutpat metus eu quan tincidunt, eu pellentesque velit vestibulum. Ut congue sem diam, a vehicula justo interdum eget. Quisque a nibh eu ipsum fascilis volutpat nec nec diam. Suspendisse potenti." 
+} 
+        ]
+}

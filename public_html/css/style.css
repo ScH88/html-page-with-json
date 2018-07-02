@@ -1,0 +1,212 @@
+html { -webkit-text-size-adjust: none; }
+body {
+    font-family:calibri;
+    font-size:1em;
+    background-image:url('../assets/background.jpg');
+    padding-left:27%;
+    padding-right:27%;
+    box-sizing: border-box;
+    background-repeat : no-repeat; 
+    -webkit-background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    background-size:100% 100%;
+}
+
+.content {                
+    text-align:center;
+}
+
+.button {
+    width:31%;
+    height:70px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:2px;
+    padding-right:2px;
+    border-radius:3px;
+    word-wrap:break-word;
+    background-color:#D4F0FF;
+    color:#0080FF;
+    font-size:18px;
+    border:none;
+    box-shadow: 0 3px 2px -2px gray;
+}
+#sortByPrice {
+    margin: 2%;
+}
+
+/* Desktop & Mobile Screens Set to 1024 x 768 or Below  */
+@media screen and (max-width: 1024px) {
+    body {
+        padding-left:20%;
+        padding-right:20%;
+    }
+    .button {
+        font-size:14px;
+    }
+    .hotelName {
+        font-size:19px;
+    }
+    .row1names{
+        padding-right:12%;
+    }
+}
+
+/* Desktop & Mobile Screens Set to 640 x 768 or Below  */
+@media screen and (max-width: 767px) {
+    body {
+        padding-left:17%;
+        padding-right:17%;
+    }
+    .starRatingImg {
+        width:10px;
+        height:10px;
+    }
+    .row1names{
+        padding-right:10%;
+    }
+    .priceText {
+        line-height: 15px;
+    }
+    .row1price p {
+        font-size:20px !important;
+    }
+}
+
+/* Desktop & Mobile Screens Set to 640 pixels or Below  */
+@media screen and (max-width: 640px) { 
+    body {
+        padding-left:12%;
+        padding-right:12%;
+    }
+    .button {
+        width:100%;
+        height:50px;
+        font-size:22px;
+        margin-bottom:5px;
+    }
+    #sortByPrice {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .row1names {
+        padding-right:5%;
+    }
+    .row2Text {
+        font-size: 16px;
+        width:100%;
+    }
+    .priceDouble {
+        font-size:16px;
+    }
+    .priceText, .priceDouble , .hotelName{
+        line-height:2px;
+    }
+    .row1price {
+        border-left: 0 !important;
+    }
+    .hotelName {
+        font-size:16px;
+    }
+    .row1 { 
+        float:left;
+        width:100%;
+        margin:0;
+        padding:0;
+        border-collapse:collapse;
+        flex-wrap:wrap;
+    }
+
+    .row1names {
+        position:relative;
+        border:solid 0;
+        padding-right:10%;
+        flex-basis:100%;
+
+    }
+    .row1price{
+        position:relative;
+        flex-basis:100%;
+    } 
+    .priceDouble {
+        font-size:17px;
+    }
+    .row2 {
+        margin-top:260px !important;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .row2 {
+        margin-top:243px !important;
+    }
+}
+
+/* Desktop & Mobile Screens Set to 480 pixels or Below  */
+@media screen and (max-width: 480px) { 
+    body {
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .row2Text {
+        font-size: 14px;
+    }
+    .row2pt1 {
+        width:70% !important;
+    }
+    .starRatingImg {
+        width:7px;
+        height:7px;
+    } 
+}
+@media screen and (max-width: 425px) {
+    .row2 {
+        margin-top:230px !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .row2pt1 {
+        width:65% !important;
+    }
+}
+/* Desktop & Mobile Screens Set to 320 pixels or below  */
+@media screen and (max-width: 319px) { 
+    .hotelName{
+        font-size:14px;
+    } 
+    .button { 
+        font-size:18px;
+    } 
+    .row2Text {
+        font-size: 12px;
+    } 
+    .starRatingImg {
+        width:5px;
+        height:5px;
+    } 
+}
+@media screen and (max-width: 292px) {
+    .row2 {
+        margin-top:215px !important;
+    }
+}
+@media screen and (max-width: 287px) {
+    .row2pt1, .row2Text {
+        width:90% !important;        
+    }
+    .row2pt2 {
+        width:90% !important;
+        float:left !important;
+        text-align:center !important;
+    }
+    .arrowBtt {
+        margin-left:40% !important;
+        margin-right:40% !important;
+    }
+}
+@media screen and (max-width: 273px) {
+    .row2 {
+        margin-top:210px !important;
+    }
+}
